@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="571.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.library.controllers.ReviewPageController">
+   <children>
+      <ImageView fitHeight="729.0" fitWidth="926.0" layoutX="-13.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../blblioteca.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="message" layoutX="89.0" layoutY="65.0" prefHeight="72.0" prefWidth="532.0" textFill="RED">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="reviewText" layoutX="82.0" layoutY="198.0" prefHeight="277.0" prefWidth="814.0" promptText="Write your review here(500 characters max.)" />
+      <TextField fx:id="rating" layoutX="82.0" layoutY="137.0" prefHeight="31.0" prefWidth="266.0" promptText="Rate the book (Range 1-5)" />
+      <Button layoutX="82.0" layoutY="500.0" mnemonicParsing="false" onAction="#addReview" prefHeight="40.0" prefWidth="187.0" text="Add review" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/bianca%20info/Documents/NetBeansProjects/Library/test/NewEmptyJUnitTest.java</file>
+            <file>file:/C:/Users/bianca%20info/Documents/NetBeansProjects/Library/src/com/library/exceptions/TextLengthException.java</file>
+            <file>file:/C:/Users/bianca%20info/Documents/NetBeansProjects/Library/src/com/mainApp/Library.java</file>
+            <file>file:/C:/Users/bianca%20info/Documents/NetBeansProjects/Library/src/com/library/controllers/BookHistoryController.java</file>
+            <file>file:/C:/Users/bianca%20info/Documents/NetBeansProjects/Library/src/com/library/controllers/MyLibrarianAccountController.java</file>
+            <file>file:/C:/Users/bianca%20info/Documents/NetBeansProjects/Library/src/com/library/controllers/ReviewPageController.java</file>
+            <file>file:/C:/Users/bianca%20info/Documents/NetBeansProjects/Library/src/com/library/controllers/LoginController.java</file>
+            <file>file:/C:/Users/bianca%20info/Documents/NetBeansProjects/Library/src/com/library/entities/Book.java</file>
+            <file>file:/C:/Users/bianca%20info/Documents/NetBeansProjects/Library/src/com/library/controllers/NewAccountController.java</file>
+            <file>file:/C:/Users/bianca%20info/Documents/NetBeansProjects/Library/src/com/library/Login.fxml</file>
+            <file>file:/C:/Users/bianca%20info/Documents/NetBeansProjects/Library/src/com/library/exceptions/TooHighRatingException.java</file>
+            <file>file:/C:/Users/bianca%20info/Documents/NetBeansProjects/Library/src/com/library/MyLibrarianAccount.fxml</file>
+            <file>file:/C:/Users/bianca%20info/Documents/NetBeansProjects/Library/src/com/library/NewAccount.fxml</file>
+            <file>file:/C:/Users/bianca%20info/Documents/NetBeansProjects/Library/src/com/database/LoginQuery.java</file>
+            <file>file:/C:/Users/bianca%20info/Documents/NetBeansProjects/Library/src/com/library/controllers/BorrowPageController.java</file>
+            <file>file:/C:/Users/bianca%20info/Documents/NetBeansProjects/Library/src/com/library/controllers/MyAccountController.java</file>
+            <file>file:/C:/Users/bianca%20info/Documents/NetBeansProjects/Library/src/com/library/controllers/AddBookController.java</file>
+        </group>
+    </open-files>
+</project-private>

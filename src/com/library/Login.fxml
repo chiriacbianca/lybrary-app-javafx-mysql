@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="463.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.library.controllers.LoginController">
+   <children>
+      <ImageView fitHeight="471.0" fitWidth="742.0" layoutX="-63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagini/blblioteca.jpg" />
+         </image>
+      </ImageView>
+       
+      <TextField fx:id="username" alignment="CENTER" layoutX="163.0" layoutY="101.0" prefHeight="41.0" prefWidth="284.0" promptText="username" />
+      <PasswordField fx:id="password" alignment="CENTER" layoutX="159.0" layoutY="162.0" prefHeight="41.0" prefWidth="284.0" promptText="password" />
+      <Button contentDisplay="CENTER" layoutX="244.0" layoutY="211.0" mnemonicParsing="false" onAction="#loginAction" prefHeight="41.0" prefWidth="121.0" text="Login" />
+      <Label fx:id="message" contentDisplay="CENTER" layoutX="222.0" layoutY="34.0" prefHeight="48.0" prefWidth="165.0" text="Login into account" textFill="#f2e6e6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="273.0" layoutY="375.0" prefHeight="21.0" prefWidth="196.0" text="No account? Sign up here" textFill="#1de845" />
+      <Button layoutX="488.0" layoutY="370.0" mnemonicParsing="false" onAction="#signUpAction" text="Signup" />
+      <Label fx:id="signUpMessage" layoutX="287.0" layoutY="285.0" />
+   </children>
+</AnchorPane>

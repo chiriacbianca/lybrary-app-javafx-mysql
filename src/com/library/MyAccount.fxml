@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="689.0" prefWidth="1093.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.library.controllers.MyAccountController">
+   <children>
+      <ImageView fitHeight="801.0" fitWidth="1099.0" layoutY="1.0" onDragDetected="#logOut" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagini/blblioteca.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="table" layoutX="78.0" layoutY="176.0" prefHeight="499.0" prefWidth="944.0">
+        <columns>
+          <TableColumn fx:id="columnId" prefWidth="76.0" text="Book ID" />
+          <TableColumn fx:id="columnTitle" minWidth="0.0" prefWidth="440.0" text="Title" />
+            <TableColumn fx:id="columnAuthor" prefWidth="313.0" text="Author" />
+            <TableColumn fx:id="columnRating" prefWidth="110.0" text="Rating" />
+        </columns>
+      </TableView>
+      <Label fx:id="message" layoutX="84.0" layoutY="66.0" prefHeight="37.0" prefWidth="710.0" textFill="#26d30c">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="881.0" layoutY="69.0" mnemonicParsing="false" onAction="#logOut" prefHeight="30.0" prefWidth="140.0" text="Log out" />
+   </children>
+</AnchorPane>

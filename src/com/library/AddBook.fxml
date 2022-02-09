@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="515.0" prefWidth="823.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.library.controllers.AddBookController">
+   <children>
+      <ImageView fitHeight="564.0" fitWidth="823.0" layoutX="-6.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../blblioteca.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="authorName" layoutX="51.0" layoutY="83.0" prefHeight="42.0" prefWidth="333.0" promptText="Author name" />
+      <TextField fx:id="bookTitle" layoutX="51.0" layoutY="198.0" prefHeight="42.0" prefWidth="333.0" promptText="Book title" />
+      <TextField fx:id="numberOfCopies" layoutX="51.0" layoutY="286.0" prefHeight="42.0" prefWidth="333.0" promptText="Number of copies" />
+      <Button layoutX="131.0" layoutY="402.0" mnemonicParsing="false" onAction="#addBook" prefHeight="31.0" prefWidth="152.0" text="Add book" />
+      <Label fx:id="message" alignment="CENTER" contentDisplay="CENTER" layoutX="51.0" layoutY="35.0" prefHeight="21.0" prefWidth="327.0" />
+   </children>
+</AnchorPane>
